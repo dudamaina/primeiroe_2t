@@ -1,21 +1,26 @@
 
 body {
-  background: purple;
+    background: purple;
 }
-h1 {
-  text-align: center;
+h1 { 
+    text-align: center;
 }
-/*  
-    position:absolute ;
-    position:fixed ;
-    position:sticky ;
- */
-.caixa1 {
-    position: relative ;
-    width: 200px ;
-    height: 200px ;
-    background: #AABBBB;
-    left: 50%;
-    
-    
-}
+/* position: absolute;
+   position: fixed;
+   position: stististicky
+    */
+  
+   .caixa1  { 
+   position: relative; 
+   width: 200px; 
+   height: 200px;
+   background: pink;
+   left: 50px;
+ }
+  .menuPrincipal {
+  position: absolute; 
+  background: rgb(179, 184, 255); 
+  width: 100%; 
+  height: 100px; 
+  top: 0;}
+
