@@ -9,6 +9,16 @@ h1 {
    position: fixed;
    position: sticky;
 */
+h2{
+  text-align: left;
+  position: relative;
+}
+h3 {
+  font-size: 40px;
+  line-height: 10px;
+  line-height: 30px;
+  line-clamp: 10%;
+}
 .caixa1 {
    position: relative;
    width: 200px;
@@ -57,9 +67,14 @@ li a:hover {
   display: flex;
   justify-content: center;
 }
-#daichi {
-  width: 110%;
-  height: 100%;
+#oikawa {
+  width: 70%;
+  height: 99%;
+}
+#iwa{
+  width: 70%;
+  height: 105%;
+  position: left;
 }
 .rodape {
   position: absolute;
@@ -75,4 +90,10 @@ li a:hover {
 .conteudoHome{
   position: absolute;
   top: 45px;
+}
+#pag1 {
+  text-align: 100px;
+}
+ #daichi, pag1 {
+  display: inline-block;
 }
