@@ -1,6 +1,9 @@
 body {
   background: rgb(177, 140, 207);
+  text-align: center;
+
 }
+ 
 h1 {
   text-align: center;
 }
@@ -19,13 +22,7 @@ h3 {
   line-height: 30px;
   line-clamp: 10%;
 }
-.caixa1 {
-   position: relative;
-   width: 200px;
-   height: 200px;
-   background: #73caca;
-   left: 50px;
-}
+
 .menuPrincipal {
   position: absolute; 
   background: rgb(169, 60, 184);
@@ -43,15 +40,12 @@ li {
   float: left;
 }
 li a {
-  display: block;
-  color: rgb(255, 10, 10);
+  display: flex;
+  color: rgb(46, 24, 75);
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
-}
-li a:hover {
-  background: rgba(8, 94, 8, 0.185);
 }
 .BoxImage {
   width: 500px;
@@ -66,15 +60,6 @@ li a:hover {
   padding: 20px;
   display: flex;
   justify-content: center;
-}
-#oikawa {
-  width: 70%;
-  height: 99%;
-}
-#iwa{
-  width: 70%;
-  height: 105%;
-  position: left;
 }
 .rodape {
   position: absolute;
@@ -91,9 +76,29 @@ li a:hover {
   position: absolute;
   top: 45px;
 }
-#pag1 {
-  text-align: 100px;
+ #pag1 {
+  display: inline-flex;
+  position: left;
+  width: 100%;
+  height: 50px ;
+  
 }
- #daichi, pag1 {
-  display: inline-block;
+#yamaguchi {
+  height: 100%;
+
+}
+#HAIKYUU {
+  height: 500px;
+  width: 600px;
+  position: absolute ;
+  top: 50px;
+  left: 150%;
+}
+#oikawa {
+  position: left;
+  left: 303%;
+  height: 400px;
+}
+p{
+  left: 30%;
 }
