@@ -6,6 +6,7 @@ body {
  
 h1 {
   text-align: center;
+
 }
 /*
    position: absolute;
@@ -76,15 +77,10 @@ li a {
   position: absolute;
   top: 45px;
 }
- #pag1 {
-  display: inline-flex;
-  position: left;
-  width: 100%;
-  height: 50px ;
-  
-}
+
 #yamaguchi {
   height: 100%;
+  
 
 }
 #HAIKYUU {
@@ -99,6 +95,6 @@ li a {
   left: 303%;
   height: 400px;
 }
-p{
-  left: 30%;
+#pag1 {
+  position:left;
 }
