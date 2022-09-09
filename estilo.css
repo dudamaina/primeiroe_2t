@@ -19,10 +19,13 @@ h2 {
   
 }
 h3 {
+  text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h4 {
+  text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
 }
 
 .menuPrincipal {
@@ -50,7 +53,7 @@ li a {
   font-family: 'Courier New', Courier, monospace;
 }
 .BoxImage {
-  width: 500px;
+  width: 1250px;
   height: 350px;
   background:rgba(173, 8, 238, 0.918);
   top: 45px;
@@ -81,7 +84,7 @@ li a {
 
 #yamaguchi {
   position: left;
-  left: -303%; 
+  left: 303%; 
   height: 100%;
   
 
@@ -98,9 +101,18 @@ li a {
   left: 303%;
   height: 350px;
 }
-#kags {
+#hina {
   position: left;
-  left: 0%;
-  width: 50%;
-  height: 70%;
+  left: 303%;
+  height: 300px;
+}
+.pagina01 {
+  position: left ;
+  color: black;
+  height: 30px;
+}
+.pagina03 {
+  position: left;
+  color: black;
+  height: 30px;
 }
